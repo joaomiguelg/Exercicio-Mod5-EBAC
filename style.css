@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: rgb(17, 52, 148);
+    height: 100px;
+    max-width: 2560px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    gap: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 24px;
+    font-family: 'Staatliches', cursive;
+    font-weight: lighter;
+}
+
+nav a:hover {
+    color: black;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Staatliches', cursive;
+    font-weight: lighter;
+    color: rgb(14, 41, 116) ;
+    font-size: 30px;
+}
+
+.conteudo-sobre-nos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+h3 {
+    font-family: 'Staatliches', cursive;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.img-main {
+    height: 350px;
+}
+
+.img-brand {
+    height: 50px;
+}
+
+.conteudo-escrito-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.imgs-brands {
+    display: flex;
+    gap: 20px;
+}
+
+.h2-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.conteudo-contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;  
+    align-items: flex-start;  
+}
+
+.img-icons {
+    height: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+
+input {
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color:rgb(17, 52, 148);
+    justify-content: center;
+}
+
+main {
+    background-color: rgba(168, 178, 187, 0.63);
+    padding-bottom: 50px;
+    padding-top: 50px ;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    background-color: rgb(17, 52, 148);
+    color: antiquewhite;
+    font-family: 'Staatliches', cursive;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:black ;
+}
+
+input:focus,textarea:focus {
+    outline-color: rgb(17, 52, 148) ;
+}
